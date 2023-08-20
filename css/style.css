@@ -1,31 +1,21 @@
-ul,
-#myUL {
-  list-style-type: none;
-}
-
-#myUL {
-  margin: 0;
-  padding: 0;
-}
-
-.caret {
+.list {
   cursor: pointer;
-  user-select: none;
 }
 
-.caret::before {
-  content: "\2713";
+.list::before {
+  content: "\25B6";
   color: black;
   display: inline-block;
   margin-right: 6px;
 }
 
-.caret-down::before {
+.list-down::before {
   transform: rotate(90deg);
 }
 
 .nested {
   display: none;
+  margin-left: 20px;
 }
 
 .active {
